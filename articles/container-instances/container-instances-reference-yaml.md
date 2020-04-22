@@ -31,8 +31,7 @@ properties: # Properties of container group
   - name: string # Name of an instance
     properties: # Properties of an instance
       image: string # Container image used to create the instance
-      command:
-      - string
+      command: []
       ports: # External-facing ports exposed on the instance, must also be set in group ipAddress property 
       - protocol: string
         port: integer
